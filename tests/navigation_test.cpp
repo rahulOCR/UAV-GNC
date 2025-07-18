@@ -12,7 +12,7 @@ int main() {
     double lat_A = 28.0000, lon_A = 77.0000;
     double lat_B = 28.0050, lon_B = 77.0050;
 
-    l1.updateWaypoint(lat_A, lon_A, lat_B, lon_B);
+    nav.updateWaypoint(lat_A, lon_A, lat_B, lon_B);
 
     // Simulated aircraft starting position
     double lat = 28.0000;

@@ -2,4 +2,4 @@
 g++ tests/pid_test.cpp -I/usr/include/python3.8 -I. -lpython3.8 -L build -lpid -o pid_test
 
 [tests/navigation_test]
-g++ tests/navigation_test.cpp Navigator/Navigator.cpp -I/usr/include/python3.8 -I. -lpython3.8 -L build -lpid -o nav_test
+g++ tests/navigation_test.cpp Navigator/Navigator.cpp -I/usr/include/python3.8 -I. -lpython3.8 -L build -lnav -o nav_test
