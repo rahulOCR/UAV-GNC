@@ -38,7 +38,7 @@ int main()
     std::normal_distribution<double> noise(0.0, sigma);
     std::vector<double> tmp, alt, set_alt;
     
-    PID_Controller *pid = new PID_Controller(kp, ki, kd, TEST_IMAX, TEST_FILTER);
+    PID_Controller *pid = new PID_Controller(kp, ki, kd);
 
     for(int i = 0; i < 400; i++)
     {

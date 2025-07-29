@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<mavlink>
+  <version>3</version>
+  <messages>
+    <message id="1" name="ANADRONE">
+      <description>Test all field types</description>
+      <field type="char" name="FIELD1">char</field>
+    </message>
+  </messages>
+</mavlink>
